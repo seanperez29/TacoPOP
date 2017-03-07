@@ -23,6 +23,7 @@
 		915A8C081E6E60FF00836B8E /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C071E6E60FF00836B8E /* NibLoadableView.swift */; };
 		915A8C0A1E6E616900836B8E /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C091E6E616900836B8E /* UICollectionView+Ext.swift */; };
 		915A8C0C1E6E659500836B8E /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C0B1E6E659500836B8E /* MutableCollection+Ext.swift */; };
+		915A8C0E1E6E6F9200836B8E /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C0D1E6E6F9200836B8E /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		915A8C071E6E60FF00836B8E /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		915A8C091E6E616900836B8E /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		915A8C0B1E6E659500836B8E /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		915A8C0D1E6E6F9200836B8E /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				915A8BF91E6E428700836B8E /* DropShadow.swift */,
 				915A8C051E6E605500836B8E /* ReusableView.swift */,
 				915A8C071E6E60FF00836B8E /* NibLoadableView.swift */,
+				915A8C0D1E6E6F9200836B8E /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				915A8BD41E6E410000836B8E /* AppDelegate.swift in Sources */,
 				915A8C001E6E491400836B8E /* DataService.swift in Sources */,
 				915A8BFE1E6E451F00836B8E /* Taco.swift in Sources */,
+				915A8C0E1E6E6F9200836B8E /* Shakeable.swift in Sources */,
 				915A8BFC1E6E439400836B8E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
