@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TacoCell: UICollectionViewCell {
+class TacoCell: UICollectionViewCell, NibLoadableView {
 
     @IBOutlet weak var tacoImage: UIImageView!
     @IBOutlet weak var tacoLabel: UILabel!
@@ -17,7 +17,7 @@ class TacoCell: UICollectionViewCell {
     func configureCell(_ taco: Taco) {
         self.taco = taco
         tacoImage.image = UIImage(named: taco.proteinId.rawValue)
-        tacoLabel.text = "\(taco.productName) Taco"
+        tacoLabel.text = taco.productName
     }
 
 }

@@ -19,6 +19,10 @@
 		915A8C001E6E491400836B8E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8BFF1E6E491400836B8E /* DataService.swift */; };
 		915A8C031E6E520B00836B8E /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C011E6E520B00836B8E /* TacoCell.swift */; };
 		915A8C041E6E520B00836B8E /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915A8C021E6E520B00836B8E /* TacoCell.xib */; };
+		915A8C061E6E605500836B8E /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C051E6E605500836B8E /* ReusableView.swift */; };
+		915A8C081E6E60FF00836B8E /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C071E6E60FF00836B8E /* NibLoadableView.swift */; };
+		915A8C0A1E6E616900836B8E /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C091E6E616900836B8E /* UICollectionView+Ext.swift */; };
+		915A8C0C1E6E659500836B8E /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A8C0B1E6E659500836B8E /* MutableCollection+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		915A8BFF1E6E491400836B8E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		915A8C011E6E520B00836B8E /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
 		915A8C021E6E520B00836B8E /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		915A8C051E6E605500836B8E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		915A8C071E6E60FF00836B8E /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		915A8C091E6E616900836B8E /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		915A8C0B1E6E659500836B8E /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				915A8BF91E6E428700836B8E /* DropShadow.swift */,
+				915A8C051E6E605500836B8E /* ReusableView.swift */,
+				915A8C071E6E60FF00836B8E /* NibLoadableView.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -158,6 +168,8 @@
 		915A8BF81E6E413500836B8E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				915A8C091E6E616900836B8E /* UICollectionView+Ext.swift */,
+				915A8C0B1E6E659500836B8E /* MutableCollection+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -269,8 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				915A8C031E6E520B00836B8E /* TacoCell.swift in Sources */,
+				915A8C0C1E6E659500836B8E /* MutableCollection+Ext.swift in Sources */,
 				915A8BD61E6E410000836B8E /* MainVC.swift in Sources */,
 				915A8BFA1E6E428700836B8E /* DropShadow.swift in Sources */,
+				915A8C081E6E60FF00836B8E /* NibLoadableView.swift in Sources */,
+				915A8C0A1E6E616900836B8E /* UICollectionView+Ext.swift in Sources */,
+				915A8C061E6E605500836B8E /* ReusableView.swift in Sources */,
 				915A8BD41E6E410000836B8E /* AppDelegate.swift in Sources */,
 				915A8C001E6E491400836B8E /* DataService.swift in Sources */,
 				915A8BFE1E6E451F00836B8E /* Taco.swift in Sources */,
